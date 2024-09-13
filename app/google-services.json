@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "661388887222",
+    "firebase_url": "https://joelb-db-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "joelb-db",
+    "storage_bucket": "joelb-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661388887222:android:dca9ca2b895351880f1217",
+        "android_client_info": {
+          "package_name": "com.example.jb_apiintegrationv4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBSPIutUTlq04mppZJwxw7IQ0F1G2vBVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

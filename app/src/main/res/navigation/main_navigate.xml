@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigate.xml"
+    app:startDestination="@id/API1Fragment">
+
+    <fragment
+        android:id="@+id/API1Fragment"
+        android:name="com.example.jb_apiintegrationv4.API1Fragment"
+        android:label="fragment_a_p_i1"
+        tools:layout="@layout/fragment_a_p_i1" >
+        <action
+            android:id="@+id/action_API1Fragment_to_API2Fragment"
+            app:destination="@+id/homeActivity"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/API2Fragment"
+        android:name="com.example.jb_apiintegrationv4.API2Fragment"
+        android:label="fragment_a_p_i2"
+        tools:layout="@layout/fragment_a_p_i2" >
+        <action
+            android:id="@+id/action_API2Fragment_to_API1Fragment"
+            app:destination="@+id/homeActivity"/>
+    </fragment>
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.jb_apiintegrationv4.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" >
+    </activity>
+
+    <activity
+        android:id="@+id/welcomeActivity"
+        android:name="com.example.jb_apiintegrationv4.WelcomeActivity"
+        android:label="activity_welcome"
+        tools:layout="@layout/activity_welcome" />
+    
+</navigation>
